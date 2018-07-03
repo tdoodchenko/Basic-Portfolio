@@ -1,10 +1,9 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777777;
+    color: #777777;  
     background-image: url("../images/qbkls.png");
-    background-repeat: repeat;
-    font-size: 20px;
-}
+    }
+
 
 header {
     width: 100%;
@@ -12,7 +11,8 @@ header {
     background-color: #ffffff;
     padding-top: 50px;
     border-bottom: 2px #dddddd solid;
-}
+    top: 0;
+    }
 
 .container {
     width: 960px;
