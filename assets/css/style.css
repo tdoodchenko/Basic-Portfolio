@@ -1,0 +1,64 @@
+body {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #777777;
+    background-image: -moz-linear-gradient("./images/qbkls.png");
+    background-repeat: repeat;
+}
+
+header {
+    width: 100%;
+    height: auto;
+    background-color: #ffffff;
+    padding-top: 50px;
+    border-bottom-width: 1px;
+    border-bottom-color: #777777
+}
+
+.container {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.box1 {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#logo {
+    background-color: #4aaaa5;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #ffffff;
+    font-size: 25px;
+    padding: 20px;
+    display: inline-block;
+    text-align: center;
+    font-weight: bold;
+}
+
+.menu {
+    float: right;
+    padding: 5px 0 5px 0;
+    background-color: #ffffff;
+    text-align: center;
+    font-size: 14px
+}
+
+ul.menu-nav {
+    margin-top: 10px;
+}
+
+.menu-nav li {
+    display: inline;
+    padding-right: 5px;
+}    
+
+h1 {
+    color: #4aaaa5;
+    font-size: 25px;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #ffffff;
+}
