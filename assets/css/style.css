@@ -1,22 +1,33 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #777777;  
+    color: #777777; 
     background-image: url("../images/qbkls.png");
+    padding: 0px;
+    border: 0px;
+    margin: 0px;
     }
-
 
 header {
     width: 100%;
     height: auto;
     background-color: #ffffff;
     padding-top: 50px;
-    border-bottom: 2px #dddddd solid;
+    border-bottom: 2px #cccccc solid;
     top: 0;
     }
 
-.container {
+.header-con {
     width: 960px;
     margin: 0 auto;
+    }
+
+.container {
+    width: 920px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    padding: 20px;
+    margin-top: 30px;
+    border: 1px solid #dddddd;
     }
 
 .box1 {
@@ -60,19 +71,9 @@ h1 {
     padding-bottom: 40px;
 }
 
-section {
-    padding: 20px;
-    margin-top: 40px;
-    margin-bottom: 100px;
-    background-color: #ffffff;
-    border: #dddddd solid 1px;
-    position: absolute;
-    width: 960px;
-}
-
 p {
     padding-top: 0px;
-}
+    }
 
 #headshot {
     float: left;
